@@ -6,7 +6,10 @@
 // Prog: Andrew Smith
 //       gvroom [at] gmail.com (http://hackedcpu.com/) 
 //
-// Desc: Provide generalized asynchronous TCP/IP communication utility.
+// Desc: Provide generalized asynchronous TCP/IP communication utility. See
+//       the following for stream related features:
+//
+//         http://www.php.net/manual/en/ref.stream.php
 //
 // Note: This is not expected to be used (advanced) in a tight loop. Caller
 //       is expected to use sleep() or usleep() to release CPU.
