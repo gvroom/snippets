@@ -23,4 +23,6 @@ Using PHP's microtime() function to generate fine grained time based nonce value
 License
 =======
 
-This snippets repository is published under the terms of the MIT license (see LICENSE.txt).
+This snippets repository is published under the terms of the MIT license (see LICENSE.txt). 
+
+Need more information? Read more about various open source [licensing](http://choosealicense.com/licenses/) schemes.
