@@ -19,3 +19,8 @@ Simple function showing how to assemble a message for use against Cryptsy APIs. 
 **getNonce.php**
 
 Using PHP's microtime() function to generate fine grained time based nonce values. High frequency API use will consume a lot of "nonce space" if a second's worthy of "nonce space" needs to be consumed per API request.
+
+License
+=======
+
+This snippets repository is published under the terms of the MIT license (see LICENSE.txt).
