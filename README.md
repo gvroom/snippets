@@ -16,4 +16,6 @@ Demonstration class showing how to send a message to a remote server asyncronous
 
 Simple function showing how to assemble a message for use against Cryptsy APIs. Key visibility and nonce management concepts are hinted at but not detailed.
 
+**getNonce.php**
 
+Using PHP's microtime() function to generate fine grained time based nonce values. High frequency API use will consume a lot of "nonce space" if a second's worthy of "nonce space" needs to be consumed per API request.
