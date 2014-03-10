@@ -3,7 +3,7 @@ Snippets Repository
 
 Various illustrative PHP snippets...
 
-At the current time I have not decided on which open source license I should be using. It is very likely that these snippets will be integrated into some future projects.
+These are published with the MIT license (see below).  Be free!
 
 Source Code
 -----------
