@@ -10,7 +10,7 @@
 //       increment the nonce per API call (via ++var notation).
 // ##########################################################################
 
-require ("getNonce.php");
+require "getNonce.php";
 
 date_default_timezone_set("UTC");
 
