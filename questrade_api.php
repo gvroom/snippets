@@ -156,17 +156,17 @@ function qt_refresh($protocol,$host,$uri,$auth)
   // Parse the returned details and assemble response
   // ------------------------------------------------
   $result = array();
-	$result['code']           = $code;
-	if ( $code > 200 )
-	   return $result;
+  $result['code']           = $code;
+  if ( $code > 200 )
+    return $result;
 
   $result['access_token']   = $res->access_token;
   $result['access_renew']   = $res->refresh_token;
   $result['access_server']  = str_replace('https://','',$res->api_server);
   $result['access_type']    = $res->token_type;
   $result['access_seconds'] = $res->expires_in;
-	$result['access_expire']  = $granted + $res->expires_in;
-	$result['headers']        = $headers;
+  $result['access_expire']  = $granted + $res->expires_in;
+  $result['headers']        = $headers;
 	
-	return $result;
+  return $result;
 }
