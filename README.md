@@ -8,6 +8,10 @@ These are published with the MIT license (see below).  Be free!
 Source Code
 -----------
 
+**questrade_api.php**
+
+PHP based functions using CURL to make API requests using either GET or POST functionality. Created for use against the Questrade API but reworkable for any similar back end. Improvements in character encoding required before non-personal usage.
+
 **asyncTCP.php**
 
 Demonstration class showing how to send a message to a remote server asyncronously. This allows other requests to be sent while waiting for the remote server to respond.  As demonstrated the initial socket connection itself is not made asynchronously.
