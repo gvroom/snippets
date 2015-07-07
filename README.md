@@ -8,6 +8,10 @@ These are published with the MIT license (see below).  Be free!
 Source Code
 -----------
 
+**limiter.php**
+
+Demonstration class, with included sample usage, showing how to voluntarily limit usage or activity rates on a per second, per minute and per hour basis (at the same time if desired).
+
 **questrade_api.php**
 
 PHP based functions using CURL to make API requests using either GET or POST functionality. Created for use against the Questrade API but reworkable for any similar back end. Improvements in character encoding required before non-personal usage.
